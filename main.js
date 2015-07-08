@@ -1,6 +1,5 @@
 var application = require('app'),
     BrowserWindow = require('browser-window');
-
 application.on('ready', function() {
     var mainWindow = new BrowserWindow({
         width: 600,
